@@ -1,0 +1,21 @@
+.audiojs p {
+    width: 25px;
+    height: 40px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.audiojs {
+    width: 650px;
+    height: 40px;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 40px;
+    background: #373338 -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff0007), color-stop(0.5, #0c00bc), color-stop(0.51, #0c00bc), color-stop(1, #444));
+}
+
+
+
+/*background: #373338 -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff0007), color-stop(0.5, #060055), color-stop(0.51, #060055), color-stop(1, #444));*/
+/*градиент*/
+/*background: #373338 -webkit-gradient(linear, left top, left bottom, from(#ff0007), to(#0a0270));*/
