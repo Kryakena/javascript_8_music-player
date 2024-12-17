@@ -44,17 +44,17 @@ audiojs.events.ready(function(){
 6. в файле index.html подцепляем script.js в body
 
 ```html
-<script src="/audiojs/script.js"></script>
+<script src="script.js"></script>
 ```
 
 7. в файле index.html, чтобы что-то воспроизвести, нужно вставить тэг audio в body
 
 ```html
-<audio src="/audiojs/Король и Шут - Дагон.mp3"></audio>
-<audio src="/audiojs/Король и Шут - Медведь.mp3"></audio>
-<audio src="/audiojs/Король и Шут - Мой Характер.mp3"></audio>
-<audio src="/audiojs/Король и Шут - Проклятый старый дом.mp3"></audio>
-<audio src="/audiojs/Горшок - Жизнь.mp3"></audio>
+<audio src="Король и Шут - Дагон.mp3"></audio>
+<audio src="Король и Шут - Медведь.mp3"></audio>
+<audio src="Король и Шут - Мой Характер.mp3"></audio>
+<audio src="Король и Шут - Проклятый старый дом.mp3"></audio>
+<audio src="Горшок - Жизнь.mp3"></audio>
 ```
 
 8. подцепить стиль css в файле index.html в head
@@ -63,15 +63,16 @@ audiojs.events.ready(function(){
 <link rel="stylesheet" href="style.css">
 ```
 
-9. в файле index.html в разделе body, чтобы застилизовать сам проигрыватель. И в dev вставляем свою музыку
+9. в файле index.html в разделе body, чтобы застилизовать сам проигрыватель. И в dev вставляем свою музыку.
+Добавляем к музыке - controls, чтобы был виде проигрыватель с кнопками
 
 ```html
 <div class="audiojs" classname="audiojs" id="audiojs_wrapper0">
-   <audio src="/audiojs/Король и Шут - Дагон.mp3"></audio>
-   <audio src="/audiojs/Король и Шут - Медведь.mp3"></audio>
-   <audio src="/audiojs/Король и Шут - Мой Характер.mp3"></audio>
-   <audio src="/audiojs/Король и Шут - Проклятый старый дом.mp3"></audio>
-   <audio src="/audiojs/Горшок - Жизнь.mp3"></audio>
+   <audio src="Король и Шут - Дагон.mp3" controls></audio>
+   <audio src="Король и Шут - Медведь.mp3" controls></audio>
+   <audio src="Король и Шут - Мой Характер.mp3" controls></audio>
+   <audio src="Король и Шут - Проклятый старый дом.mp3" controls></audio>
+   <audio src="Горшок - Жизнь.mp3" controls></audio>
 </div>
 ```
 
