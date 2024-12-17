@@ -30,7 +30,7 @@ https://vkvideo.ru/video-101965347_456257150?sel=19460369
 - подцепляем готовый audio.min.js из папки audiojs в разделе body
 
 ```html
-<script src="/audiojs/audio.min.js"></script>
+<script src="audio.min.js"></script>
 ```
 
 5. в файле script.js пишем функцию, которая создаст проигрыватель и будет обрабатываться по нажатию
