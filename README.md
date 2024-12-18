@@ -21,10 +21,10 @@ https://vkvideo.ru/video-101965347_456257150?sel=19460369
 
 4. в файле index.html:
 
-- меняем название в строке title в разделе head - Play
+- меняем название в строке title в разделе head - Music play
 
 ```html
-<title>Play</title>
+<title>Music play</title>
 ```
 
 - подцепляем готовый audio.min.js из папки audiojs в разделе body
@@ -50,11 +50,7 @@ audiojs.events.ready(function(){
 7. в файле index.html, чтобы что-то воспроизвести, нужно вставить тэг audio в body
 
 ```html
-<audio src="Король и Шут - Дагон.mp3"></audio>
-<audio src="Король и Шут - Медведь.mp3"></audio>
 <audio src="Король и Шут - Мой Характер.mp3"></audio>
-<audio src="Король и Шут - Проклятый старый дом.mp3"></audio>
-<audio src="Горшок - Жизнь.mp3"></audio>
 ```
 
 8. подцепить стиль css в файле index.html в head
@@ -68,11 +64,7 @@ audiojs.events.ready(function(){
 
 ```html
 <div class="audiojs" classname="audiojs" id="audiojs_wrapper0">
-   <audio src="Король и Шут - Дагон.mp3" controls></audio>
-   <audio src="Король и Шут - Медведь.mp3" controls></audio>
    <audio src="Король и Шут - Мой Характер.mp3" controls></audio>
-   <audio src="Король и Шут - Проклятый старый дом.mp3" controls></audio>
-   <audio src="Горшок - Жизнь.mp3" controls></audio>
 </div>
 ```
 
