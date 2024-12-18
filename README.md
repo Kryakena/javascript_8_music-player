@@ -1,7 +1,10 @@
-# Музыкальный плеер
+# 🎼 Музыкальный плеер 🎼
 
 Источник: видео "Уроки по JavaScript. Как сделать аудиоплеер (музыкальный проигрыватель) на JavaScript" 
 https://vkvideo.ru/video-101965347_456257150?sel=19460369
+
+![2024-12-18_11-41-08](https://github.com/user-attachments/assets/7c2f43ff-6ab6-4e25-a6c9-41656d275a31)
+
 
 1. скачать себе 2 файла из папки audiojs по ссылке:
     - либо из репозитория GitHub (https://github.com/kolber/audiojs)
@@ -116,6 +119,9 @@ text-align: center;
 }
 ```
 
+![2024-12-18_11-38-57](https://github.com/user-attachments/assets/7911febe-10b9-4c8b-a0b8-3bac3c94e846)
+
+
 2. в файле index.html
 
 ```html
@@ -136,6 +142,9 @@ text-align: center;
 </html>
 ```
 
+![2024-12-18_11-38-17](https://github.com/user-attachments/assets/be22f0e1-c28b-449b-9e27-2c40b1477cd9)
+
+
 3. в файле script.js 
 
 ```JS
@@ -143,3 +152,5 @@ audiojs.events.ready(function(){
    var as = audiojs.createAll();
 });
 ```
+
+![2024-12-18_11-38-33](https://github.com/user-attachments/assets/892c9c9b-7ae2-46f3-95fb-21bb56f34630)
