@@ -17,8 +17,8 @@ https://vkvideo.ru/video-101965347_456257150?sel=19460369
 
 3. создать нужные файлы в ранее скачанной папке audiojs в программе "WebStorm" для работы с JavaScript
    (скачать бесплатную версию https://www.jetbrains.com/webstorm/);
-- HTML (index.html) 
-- CSS (style.css) 
+- HTML (index.html); 
+- CSS (style.css); 
 - JS (script.js)
 
 4. в файле index.html:
