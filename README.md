@@ -9,7 +9,7 @@ https://vkvideo.ru/video-101965347_456257150?sel=19460369
 1. скачать себе 2 файла из папки audiojs по ссылке:
     - либо из репозитория GitHub (https://github.com/kolber/audiojs)
     - либо с Google.Диск (https://drive.google.com/drive/folders/1YmH_sC3PCJi7OxsEQhAVKN1n8aKpNsQK?usp=sharing)
-- audio.min.js
+- audio.min.js;
 - audiojs.swf
 
 2. в ранее скачанную папку audiojs вставляем файлы с музыкой в формате mp3 
